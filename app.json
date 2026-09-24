@@ -1,6 +1,11 @@
 {
   "expo": {
     "name": "onspace-app",
+    "extra": {
+  "eas": {
+    "projectId": "0ca6ab6c-4544-4fca-9334-8698c995b05c"
+  }
+}
     "slug": "onspace-app",
     "version": "1.0.0",
     "orientation": "portrait",
