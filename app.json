@@ -36,8 +36,7 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-web-browser",
-      "@config-plugins/react-native-ble-plx"
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
