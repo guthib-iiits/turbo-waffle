@@ -159,6 +159,5 @@
     "react-native": "0.79.3",
     "@supabase/supabase-js": "2.50.0"
   },
-  "private": true,
-  "packageManager": "npm@11.6.0"
+  "private": true
 }
