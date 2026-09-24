@@ -10,6 +10,9 @@
     "web": "expo start --web",
     "lint": "expo lint"
   },
+  "engines": {
+    "node": "22.13.0"
+  },
   "dependencies": {
     "@expo/metro-runtime": "5.0.4",
     "@expo/vector-icons": "^14.0.0",
@@ -37,7 +40,7 @@
     "lottie-react-native": "7.2.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-native": "0.79.2",
+    "react-native": "0.79.3",
     "react-native-calendars": "^1.1312.1",
     "react-native-dynamic": "^1.0.0",
     "react-native-gesture-handler": "~2.24.0",
@@ -152,5 +155,10 @@
     "react-dev-inspector": "^2.0.1",
     "typescript": "~5.8.3"
   },
-  "private": true
+  "resolutions": {
+    "react-native": "0.79.3",
+    "@supabase/supabase-js": "2.50.0"
+  },
+  "private": true,
+  "packageManager": "npm@11.6.0"
 }
